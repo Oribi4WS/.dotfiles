@@ -1,5 +1,10 @@
-Show hidden files : cmd + shift + . (period)
+# TODO
+- .vscode
+- .gitconfig
 
+
+
+Show hidden files : cmd + shift + . (period)
 
 ```
 $ zsh
@@ -57,3 +62,9 @@ $ echo $HOST
 $ echo $PS1
 $ echo $PROMPT
 ```
+
+Symlink
+```
+$ ln -s ~/.dotfiles/zshrc ~/.zshrc
+```
+
