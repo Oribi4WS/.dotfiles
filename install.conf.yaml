@@ -1,6 +1,6 @@
 - defaults:
     link:
-      relink: true
+        relink: true
 
 - clean: ['~']
 
@@ -12,5 +12,9 @@
 #    - ~/downloads
 #    - ~/.vim/undo-history
 
-#- shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+    # - [git submodule update --init --recursive, Installing submodules]
+    - command: './homebrew.setup.zsh'
+      stdin: true
+      stdout: true
+      sterr: true
