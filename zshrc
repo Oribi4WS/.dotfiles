@@ -29,9 +29,11 @@ RPROMPT='%*'
 export PATH=/opt/homebrew/bin:$PATH
 
 # Write Handy Functions
-mkcd() {
+function mkcd() {
 	mkdir -p "$@" && cd "$_"
 }
+
+
 
 # ... and Other Suprises
 

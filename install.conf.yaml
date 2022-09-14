@@ -6,7 +6,11 @@
 
 - link:
     ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
     ~/.gitconfig:
+    ~/.config/bat:
+        create: true
+        path: config/bat
 
 #- create:
 #    - ~/downloads

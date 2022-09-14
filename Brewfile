@@ -5,6 +5,8 @@ tap "homebrew/core"
 brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
+# Mac App Store command-line interface
+brew "mas"
 # Application launcher and productivity software
 cask "alfred"
 # SQL client and database management tool
@@ -17,6 +19,8 @@ cask "cyberduck"
 cask "db-browser-for-sqlite"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Git client focusing on productivity
+cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
@@ -37,3 +41,9 @@ cask "utm"
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
+# mas "GarageBand", id: 682658836
+# mas "iMovie", id: 408981434
+# mas "Keynote", id: 409183694
+# mas "Numbers", id: 409203825
+# mas "Pages", id: 409201541
+mas "Snappy", id: 512617038
