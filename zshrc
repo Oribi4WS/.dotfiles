@@ -1,6 +1,8 @@
 echo "... loading environment from ~/.zshrc file ..."
 
 # Set Variables
+## Syntax highlighting for man pages
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
 
@@ -13,6 +15,9 @@ PROMPT='
 
 PROMPT='
 %1~ L%L %# '
+
+PROMPT='
+L%L | %1~ %# '
 
 RPROMPT='%*'
 
