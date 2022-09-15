@@ -37,8 +37,16 @@ L%L | %1~ %# '
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
-export PATH="/opt/homebrew/bin:$PATH"
-export PATH="$N_PREFIX/bin:$PATH"
+# export PATH="/opt/homebrew/bin:$PATH"
+# export PATH="$N_PREFIX/bin:$PATH"
+
+# Add Locations to $path Array
+typeset -U path
+path=(
+	"$N_PREFIX/bin"
+	"/opt/homebrew/bin"
+	$path
+)
 
 # Write Handy Functions
 function mkcd() {
