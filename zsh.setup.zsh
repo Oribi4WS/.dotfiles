@@ -9,7 +9,7 @@ echo "\n <<< Setup ZSH >>>>\n"
 # fi
 
 echo "Enter superuser (sudo) password to edit /etc/shells"
-echo '/opt/homebrew/bin/zsh' | sudo tee -a '/etc/shells'
+echo '/opt/homebrew/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
 
 echo "Enter user password to change the login shell"
 chsh -s '/opt/homebrew/bin/zsh'
