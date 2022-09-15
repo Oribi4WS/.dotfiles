@@ -7,6 +7,8 @@ brew "bat"
 brew "exa"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Application launcher and productivity software

@@ -25,4 +25,8 @@
     - command: './zsh.setup.zsh'
       stdin: true
       stdout: true
-      sterr: true      
+      sterr: true
+    - command: './node.setup.zsh'
+      stdin: true
+      stdout: true
+      sterr: true   
