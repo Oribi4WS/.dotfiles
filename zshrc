@@ -12,7 +12,7 @@ export NULLCMD="bat"
 ## n – Interactively Manage Your Node.js Versions
 ## https://github.com/tj/n
 export N_PREFIX="$HOME/.n"
-export PREFIX="$N_PREFIX"
+# export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 
@@ -37,8 +37,8 @@ L%L | %1~ %# '
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
-export PATH=/opt/homebrew/bin:$PATH
-export PATH="$PATH:$N_PREFIX/bin"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$N_PREFIX/bin:$PATH"
 
 # Write Handy Functions
 function mkcd() {
