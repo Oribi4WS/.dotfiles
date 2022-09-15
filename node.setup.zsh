@@ -13,3 +13,15 @@ else
     n lts
 fi
 
+# Install global NPM packages
+
+# npm --install --global firebase-tools
+# npm --install --global @angular/cli
+# npm --install --global @ionic/cli
+# npm --install --global typescript
+# npm --install --global json-server
+# npm --install --global http-server
+
+echo "--- global NPM packages installed ---"
+npm list --global --depth=0
+
