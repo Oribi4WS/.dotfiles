@@ -7,6 +7,8 @@ brew "bat"
 brew "exa"
 # Mac App Store command-line interface
 brew "mas"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
 # SQL client and database management tool

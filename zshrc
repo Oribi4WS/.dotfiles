@@ -16,7 +16,7 @@ export NULLCMD="bat"
 alias ls='ls -lAFh'
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
-alias bbd='brew bundle dump --force --describe'
+alias bbd="brew bundle dump --force --describe"
 alias trail='<<<${(F)path}'
 
 # Customize Prompt(s)
