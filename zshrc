@@ -9,6 +9,10 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 ## https://zsh.sourceforge.io/Doc/Release/Parameters.html
 ## The command name to assume if a redirection is specified with no command. Defaults to cat. For sh/ksh behavior, change this to :. For csh-like behavior, unset this parameter; the shell will print an error message if null commands are entered.
 export NULLCMD="bat"
+## n – Interactively Manage Your Node.js Versions
+## https://github.com/tj/n
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 
@@ -33,6 +37,7 @@ RPROMPT='%*'
 
 # Add Locations to $PATH Variable
 export PATH=/opt/homebrew/bin:$PATH
+export PATH="$PATH:$N_PREFIX/bin"
 
 # Write Handy Functions
 function mkcd() {
