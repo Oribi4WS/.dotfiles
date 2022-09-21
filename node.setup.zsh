@@ -22,6 +22,10 @@ npm install --global trash-cli
 # npm install --global json-server
 # npm install --global http-server
 
+# npm install -g --acceptSuiteCloudSDKLicense @oracle/suitecloud-cli
+
+
+
 echo "--- global NPM packages installed ---"
 npm list --global --depth=0
 

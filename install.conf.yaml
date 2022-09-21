@@ -1,6 +1,6 @@
 - defaults:
     link:
-        relink: true
+      relink: true
 
 - clean: ['~']
 
@@ -9,24 +9,28 @@
     ~/.zshenv: zshenv
     ~/.gitconfig:
     ~/.config/bat:
-        create: true
-        path: config/bat
+      create: true
+      path: config/bat
 
 #- create:
 #    - ~/downloads
 #    - ~/.vim/undo-history
 
 - shell:
-    # - [git submodule update --init --recursive, Installing submodules]
-    - command: './homebrew.setup.zsh'
-      stdin: true
-      stdout: true
-      sterr: true
-    - command: './zsh.setup.zsh'
-      stdin: true
-      stdout: true
-      sterr: true
-    - command: './node.setup.zsh'
-      stdin: true
-      stdout: true
-      sterr: true   
+  # - [git submodule update --init --recursive, Installing submodules]
+  - command: './homebrew.setup.zsh'
+    stdin: true
+    stdout: true
+    sterr: true
+  - command: './zsh.setup.zsh'
+    stdin: true
+    stdout: true
+    sterr: true
+  - command: './node.setup.zsh'
+    stdin: true
+    stdout: true
+    sterr: true
+  - command: './java.setup.zsh'
+    stdin: true
+    stdout: true
+    sterr: true   
